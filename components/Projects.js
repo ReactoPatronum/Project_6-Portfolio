@@ -20,15 +20,15 @@ const Projects = () => {
       <div id="projects" className={styles.container}>
       <div className={styles.projects}>
         <h1 className="text-gray-300 mt-20">Son Projeler</h1>
-        <p className="text-gray-400 hover:underline "><a  target="_blank"
+        <p className="text-gray-400 hover:underline font-semibold"><a  target="_blank"
              rel="noreferrer" href="https://github.com/ReactoPatronum?tab=repositories">Github Repo</a></p>
              <a
               target="_blank"
               href="https://drive.google.com/file/d/1qvQav5hNecCkgY77VPQFh-hIxLlDW0Bq/view?usp=sharing"
               rel="noreferrer"
-              className="text-gray-400 hover:underline text-sm"
+              className="font-semibold text-gray-400 hover:underline text-sm"
             >
-              CV İndir
+              CV &apos; yi Görüntüle
             </a>
       </div>
 

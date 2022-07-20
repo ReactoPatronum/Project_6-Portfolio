@@ -81,7 +81,7 @@ const Header = () => {
           </Link>
         </li>
       </motion.ul>
-      <div className=" font-bold hidden lg:flex fixed flex-col top-[35%] left-2.5">
+      <div className="z-10 font-bold hidden lg:flex fixed flex-col top-[35%] left-2.5">
         <ul>
           <li className="p-1  w-[130px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
