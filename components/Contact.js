@@ -44,7 +44,7 @@ const Contact = () => {
             />
 
             <div>
-              <p className="font-semibold text-lg">Name</p>
+              <p className="font-semibold text-lg">Adınız</p>
               <input
                 className={`text-black w-full outline-none bg-gray-200 resize-none p-2 focus-within:bg-white border-2 focus-within:border-orange-300 
                     }`}
@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
 
             <div className="mt-6">
-              <p className="font-semibold text-lg">Message</p>
+              <p className="font-semibold text-lg">Mesajınız</p>
               <textarea
                 rows={5}
                 className={`text-black w-full outline-none bg-gray-200 resize-none p-1 focus-within:bg-white border-2 focus-within:border-orange-300 

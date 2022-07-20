@@ -13,14 +13,23 @@ import milyoner from "/public/milyoner.png"
 import ecommerce from "/public/e commerce.png"
 import tiktok from "/public/tiktok-project.png"
 
+
 const Projects = () => {
   return (
     <div name="projects" className=" bg-[#0a192f] ">
       <div id="projects" className={styles.container}>
       <div className={styles.projects}>
         <h1 className="text-gray-300 mt-20">Son Projeler</h1>
-        <p className="text-purple-400 "><a  target="_blank"
+        <p className="text-gray-400 hover:underline "><a  target="_blank"
              rel="noreferrer" href="https://github.com/ReactoPatronum?tab=repositories">Github Repo</a></p>
+             <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1qvQav5hNecCkgY77VPQFh-hIxLlDW0Bq/view?usp=sharing"
+              rel="noreferrer"
+              className="text-gray-400 hover:underline text-sm"
+            >
+              CV İndir
+            </a>
       </div>
 
       <Swiper
